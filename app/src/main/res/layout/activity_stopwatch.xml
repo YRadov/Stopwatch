@@ -38,7 +38,7 @@
         android:layout_below="@+id/start_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:onClick="onClickStart"
+        android:onClick="onClickStop"
         android:id="@+id/stop_button" />
 
     <Button
@@ -48,6 +48,6 @@
         android:layout_below="@+id/stop_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:onClick="onClickStart"
+        android:onClick="onClickReset"
         android:id="@+id/reset_button" />
 </RelativeLayout>
